@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle videcom-payload-converter",
+        "command": "videcom-payload-converter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Decode Videcom Payload",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "videcom-payload-converter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
